@@ -14,7 +14,7 @@
     ISC License for more details.
 
     You should have received a copy of the ISC License along with this program,
-	in a file called LICENSE.txt. If not, see <http://opensource.org/licenses/ISC>.
+	in a file called LICENSE. If not, see <http://opensource.org/licenses/ISC>.
 */
 
 #include <string>
