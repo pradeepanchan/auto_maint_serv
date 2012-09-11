@@ -1,0 +1,1 @@
+g++ -std=c++11 -ggdb -L/usr/local/bin -lcygboost_date_time -o auto_serv.exe auto_serv.cpp |& tee comp_res
