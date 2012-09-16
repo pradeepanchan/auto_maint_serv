@@ -486,8 +486,6 @@ tuple<DistanceInKms, Days> fetch_serviced_detail_for_part_action(
 	const tuple<DistanceInKms, date> & specific_part_serviced_time = 
 													service_hist_for_specific_part_ptr->second;
 
-#define __DEBUG
-
 #ifdef __DEBUG
     cout << "===================================" << endl;
     cout << "From function: " << __FUNCTION__ <<
@@ -496,8 +494,6 @@ tuple<DistanceInKms, Days> fetch_serviced_detail_for_part_action(
             " from service history" << endl;
     cout << "===================================" << endl;
 #endif
-
-#undef __DEBUG
 
 	return convert_serviced_time_to_interval( i_currentOdometer 
 											, i_predictionKms 
@@ -521,7 +517,7 @@ forward_list<Part_Action> predictServiceItems( const PartsInfoInDays & i_partsSe
 	{
 		const Part_Action & part_action = service_guide_for_specific_part_ptr->first;
 
-#define __DEBUG
+//#define __DEBUG
 
 #ifdef __DEBUG
     cout << "===================================" << endl;
@@ -568,7 +564,7 @@ forward_list<Part_Action> predictServiceItems( const PartsInfoInDays & i_partsSe
     cout << "===================================" << endl;
 #endif
 
-#undef __DEBUG
+//#undef __DEBUG
 		}
 	}
 
