@@ -28,7 +28,7 @@ Installation on Windows:
 ------------------------
 * You need to ensure that the cygboost_date_time.dll also exists in the same folder
   as that of the executable or in any folder determined by the %PATH% environment
-  variable.
+  variable on Windows operating system.
 
 
 Running the program:
